@@ -1,2 +1,2 @@
-# Lab 2 - Starter
-Published site: https://ejnguyen1.github.io/Lab2_Starter/
+# Lab 3
+Published site: https://ejnguyen1.github.io/sp25-cse110-lab3/
