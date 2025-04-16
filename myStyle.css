@@ -1,0 +1,52 @@
+/* headers */
+h1 {
+    color: rgb(0, 0, 102);
+}
+
+h2 {
+    color: #0000C8;
+}
+
+h3 {
+    color: hsl(225, 100, 56);
+}
+
+/* text */
+body {
+    color: black;
+    text-decoration: none;
+    text-align: start;
+}
+
+/* still need other colors */
+
+/* boxes */
+.box {
+    border-style: groove;
+    border-color: color(srgb 0.45 0.77 0.82 / 0.5);
+    border-width: thin;
+    border-radius: 20px;
+
+    /*
+    margin-top:
+    margin-bottom:
+    margin-left:
+    margin-right:
+    padding-top:
+    padding-bottom:
+    padding-left:
+    padding-right:
+    */
+}
+
+.importantBox {
+    border-style: outset;
+    border-color: color-mix(in srgb, rgb(5, 5, 247) 70%, rgb(0, 229, 84) 30%);
+    border-width: medium;
+    border-radius: 20px;
+
+    /*
+    margin:
+    padding:
+    */
+}
