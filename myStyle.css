@@ -8,7 +8,7 @@ h2 {
 }
 
 h3 {
-    color: hsl(225, 100, 56);
+    color: hsl(225, 100%, 56%);
 }
 
 /* text */
@@ -17,8 +17,6 @@ body {
     text-decoration: none;
     text-align: start;
 }
-
-/* still need other colors */
 
 /* boxes */
 .box {
