@@ -45,13 +45,13 @@ body {
     border-width: medium;
     border-radius: 20px;
 
-    margin: 20px 50px 50px 20px;
+    margin: 3mm 5mm 5mm 3mm;
 
-    padding: 3mm 8mm 13mm 3mm;
+    padding: 5vw;
 }
 
 .form-box {
-    background-color: rgb(153, 211, 216);
+    background-color: rgb(214, 244, 246);
     
     border-style: outset;
     border-color: rgb(37, 177, 190);
