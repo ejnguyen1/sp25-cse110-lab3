@@ -44,7 +44,7 @@ body {
     border-width: medium;
     border-radius: 20px;
 
-    margin: 20px 50px;
+    margin: 20px 50px 50px 20px;
 
     padding: 3mm 8mm 13mm 3mm;
 }
@@ -57,7 +57,7 @@ body {
     border-width: thin;
     border-radius: 20px;
 
-    margin: 3cm;
+    margin: 1cm;
 
-    padding: 1em;
+    padding: 2%;
 }
