@@ -26,27 +26,38 @@ body {
     border-radius: 20px;
 
     margin-top: 1em;
-    margin-bottom: 1 em;
+    margin-bottom: 1em;
     margin-left: 5%;
     margin-right: 5%;
 
-    /*
-    padding-top:
-    padding-bottom:
-    padding-left:
-    padding-right:
-    */
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 5%;
+    padding-right: 5%
 }
 
 .important-box {
-    border-style: outset;
+    background-color: #dbfffe;
+    
+    border-style: groove;
     border-color: color-mix(in srgb, rgb(5, 5, 247) 70%, rgb(0, 229, 84) 30%);
     border-width: medium;
     border-radius: 20px;
 
     margin: 20px 50px;
 
-    /*
-    padding:
-    */
+    padding: 3mm 8mm 13mm 3mm;
+}
+
+.note-box {
+    background-color: rgb(153, 211, 216);
+    
+    border-style: outset;
+    border-color: rgb(37, 177, 190);
+    border-width: thin;
+    border-radius: 20px;
+
+    margin: 3cm;
+
+    padding: 1em;
 }
