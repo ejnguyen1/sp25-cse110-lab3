@@ -62,3 +62,37 @@ body {
 
     padding: 20px;
 }
+
+/* font */
+.curly-font {
+    font-family: "Playwrite AU SA", cursive;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+
+
+
+/* included: 
+- comment
+- color
+- background
+- unit
+- margins, except auto 
+- padding
+- border
+- text 
+*/
+
+/* not yet included: 
+- CSS variables & fallbacks
+- auto margins
+- display
+- sizing
+- position
+- psuedo-class
+- layouts
+- responsiveness
+- fonts
+*/
