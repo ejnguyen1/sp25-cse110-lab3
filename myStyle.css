@@ -25,11 +25,12 @@ body {
     border-width: thin;
     border-radius: 20px;
 
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 5%;
+    margin-right: 5%;
+
     /*
-    margin-top:
-    margin-bottom:
-    margin-left:
-    margin-right:
     padding-top:
     padding-bottom:
     padding-left:
@@ -37,14 +38,16 @@ body {
     */
 }
 
-.importantBox {
+.important-box {
     border-style: outset;
     border-color: color-mix(in srgb, rgb(5, 5, 247) 70%, rgb(0, 229, 84) 30%);
     border-width: medium;
     border-radius: 20px;
 
+
+    margin: 20px 50px
+
     /*
-    margin:
     padding:
     */
 }
