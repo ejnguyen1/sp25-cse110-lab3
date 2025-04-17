@@ -44,12 +44,10 @@
         <div class="important-box">
           <p>An important decision we concluded is that our app needs to be accessible for all ages.</p>
         </div>
-        <div class="note-box"></div>
-          <details>
-            <summary>Note</summary>
-            **Finished business from last meeting that is relevant to this meeting**
-          </details>
-        </div>
+        <details>
+          <summary>Note</summary>
+          **Finished business from last meeting that is relevant to this meeting**
+        </details>
       </section>
 
       <hr>
@@ -106,77 +104,79 @@
 
       <hr>
 
-      <section id="topic5">
-        <h2>Form</h2>
-        <form id="myForm">
-          <fieldset>
-            <legend>What's your name?</legend>
-            <input type="text"><br>
-          </fieldset>
-          
-          <fieldset>
-            <legend>What's today's date?</legend>
-            <input type="date">
-          </fieldset>
+      <div class="form-box">
+        <section id="topic5">
+          <h2>Form</h2>
+          <form id="myForm">
+            <fieldset>
+              <legend>What's your name?</legend>
+              <input type="text"><br>
+            </fieldset>
+            
+            <fieldset>
+              <legend>What's today's date?</legend>
+              <input type="date">
+            </fieldset>
 
-          <fieldset>
-            <legend>How are you feeling today?</legend>
-              <input type="checkbox" id="emotion1" name="emotion1" value="happy">
-              <label for="emotion1">Happy</label><br>
+            <fieldset>
+              <legend>How are you feeling today?</legend>
+                <input type="checkbox" id="emotion1" name="emotion1" value="happy">
+                <label for="emotion1">Happy</label><br>
 
-              <input type="checkbox" id="emotion2" name="emotion2" value="sad">
-              <label for="emotion2">Sad</label><br>
+                <input type="checkbox" id="emotion2" name="emotion2" value="sad">
+                <label for="emotion2">Sad</label><br>
 
-              <input type="checkbox" id="emotion3" name="emotion3" value="angry">
-              <label for="emotion3">Angry</label><br>
+                <input type="checkbox" id="emotion3" name="emotion3" value="angry">
+                <label for="emotion3">Angry</label><br>
 
-              <input type="checkbox" id="emotion4" name="emotion4" value="sleepy">
-              <label for="emotion4">Sleepy</label><br>
-          </fieldset>
+                <input type="checkbox" id="emotion4" name="emotion4" value="sleepy">
+                <label for="emotion4">Sleepy</label><br>
+            </fieldset>
 
-          <fieldset>
-            <legend>What did you do today?</legend>
-            <textarea id="day-description" name="day-description" rows="4" cols="25"></textarea>
-          </fieldset>
+            <fieldset>
+              <legend>What did you do today?</legend>
+              <textarea id="day-description" name="day-description" rows="4" cols="25"></textarea>
+            </fieldset>
 
-          <fieldset>
-            <legend>Is a hotdog a sandwich?</legend>
-              <input type="radio" id="option1" name="sandwich" value="yes">
-              <label for="option1">Yes</label><br>
+            <fieldset>
+              <legend>Is a hotdog a sandwich?</legend>
+                <input type="radio" id="option1" name="sandwich" value="yes">
+                <label for="option1">Yes</label><br>
 
-              <input type="radio" id="option2" name="sandwich" value="no">
-              <label for="option2">No</label><br>
-          </fieldset>
+                <input type="radio" id="option2" name="sandwich" value="no">
+                <label for="option2">No</label><br>
+            </fieldset>
 
-          <fieldset>
-            <legend>What's your favorite day of the week?</legend>
-            <input list="days" id="day-choice" name="day-choice">
-            <datalist id="days">
-              <option value="Monday"></option>
-              <option value="Tuesday"></option>
-              <option value="Wednesday"></option>
-              <option value="Thursday"></option>
-              <option value="Friday"></option>
-              <option value="Saturday"></option>
-              <option value="Sunday"></option>
-            </datalist>
-          </fieldset>
+            <fieldset>
+              <legend>What's your favorite day of the week?</legend>
+              <input list="days" id="day-choice" name="day-choice">
+              <datalist id="days">
+                <option value="Monday"></option>
+                <option value="Tuesday"></option>
+                <option value="Wednesday"></option>
+                <option value="Thursday"></option>
+                <option value="Friday"></option>
+                <option value="Saturday"></option>
+                <option value="Sunday"></option>
+              </datalist>
+            </fieldset>
 
-          <fieldset>
-            <legend>And what's your favorite time of day?</legend>
-            <select name="times-of-day" id="time-selection">
-              <option value="">--Please choose an option--</option>
-              <option value="morning">Morning</option>
-              <option value="midday">Midday</option>
-              <option value="afternoon">Afternoon</option>
-              <option value="evening">Evening</option>
-              <option value="nighttime">Nighttime</option>
-            </select>
-          </fieldset>
+            <fieldset>
+              <legend>And what's your favorite time of day?</legend>
+              <select name="times-of-day" id="time-selection">
+                <option value="">--Please choose an option--</option>
+                <option value="morning">Morning</option>
+                <option value="midday">Midday</option>
+                <option value="afternoon">Afternoon</option>
+                <option value="evening">Evening</option>
+                <option value="nighttime">Nighttime</option>
+              </select>
+            </fieldset>
 
-          <button type="button">Click me</button>
-        </form>
-      </section>
+            <button type="button">Click me</button>
+          </form>
+        </section>
+      </div>
     </main>
 
     <hr>
