@@ -21,7 +21,7 @@ body {
 /* boxes */
 .box {
     border-style: groove;
-    border-color: color(srgb 0.45 0.77 0.82 / 0.5);
+    border-color: var(--blue-outline-color, lightblue);
     border-width: thin;
     border-radius: 20px;
 
@@ -71,6 +71,11 @@ body {
     font-style: normal;
   }
 
+/* color variable */
+:root {
+    --blue-outline-color: color(srgb 0.45 0.77 0.82 / 0.5);
+}
+
 
 
 
@@ -84,10 +89,10 @@ body {
 - border
 - text 
 - font
+- CSS variables & fallbacks
 */
 
 /* not yet included: 
-- CSS variables & fallbacks
 - auto margins
 - display
 - sizing
