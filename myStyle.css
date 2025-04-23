@@ -68,6 +68,17 @@ body {
     right: 30px;
 }
 
+.note-box:hover {
+    background-color: rgb(255, 46, 178);
+    color: white;
+    border: none;
+    margin: 2em;
+    padding: 8px;
+    position: fixed;
+    top: 30px;
+    right: 30px;
+}
+
 /* font */
 .curly-font {
     font-family: "Playwrite AU SA", cursive;
@@ -102,7 +113,13 @@ body {
 .form-button {
     color: #0000C8;
     background-color: rgb(157, 157, 238);
-    border: #0000C8;
+    height: 20px;
+    width: 80px;
+}
+
+.form-button:active {
+    color: rgb(255, 53, 221);
+    background-color: rgb(157, 157, 238);
     height: 20px;
     width: 80px;
 }
@@ -124,10 +141,10 @@ body {
 - auto margins
 - display
 - sizing
+- position **
 */
 
 /* not yet included: 
-- position **
 - psuedo-class
 - layouts
 - responsiveness
