@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <title>Brainstorming Meeting Minutes</title>
     <link rel="icon" type="image/x-icon" href="resources/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="myStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
   </head>
   
   <body>
     <header>
-      <h1>Favor Tracker App First Brainstorm</h1>
-      <h2>Brainstorming</h2>
-      <h3>April 11, 2025</h3>
-      <h3>Attendance</h3>
+      <h1 id="heading" class="curly-font">Favor Tracker App First Brainstorm</h1>
+      <h2 class="curly-font">Brainstorming</h2>
+      <h3 class="curly-font">April 11, 2025</h3>
+      <h3 class="curly-font">Attendance</h3>
       <ul>
         <li>Eve Nguyen</li>
         <li>Miranda Nguyen</li>
@@ -19,7 +21,7 @@
         <li>Vu Nguyen</li>
       </ul>
       <nav>
-        <h3>Agenda:</h3>
+        <h3 class="curly-font">Agenda:</h3>
         <ol>
           <li><a href="#topic1">Unfinished Business</a></li>
           <li><a href="#topic2">New Business</a></li>
@@ -33,13 +35,20 @@
     <hr>
 
     <main> 
+      <div class="note-box">
+        Brainstorm meeting #1.
+      </div>
       <section id="topic1">
-        <h2>Unfinished Business</h2>
+        <h2 class="curly-font">Unfinished Business</h2>
         <ul>
           <li><em>web</em> or <em>mobile</em> app? Discussion here</li>
           <li>tracking payment or activities? Discussion here</li>
         </ul>
-        <p><span>After discussing this unfinished business,</span> we concluded that it may be better to make a mobile app using <b>HTML</b> and <b>CSS</b>. More overall summary/conlusions here</p>
+        <p><span>After discussing this unfinished business,</span> we concluded that it may be better to make a 
+          mobile app using <b>HTML</b> and <b>CSS</b>. More overall summary/conlusions here</p>
+        <div class="important-box">
+          <p>An important decision we concluded is that our app needs to be accessible for all ages.</p>
+        </div>
         <details>
           <summary>Note</summary>
           **Finished business from last meeting that is relevant to this meeting**
@@ -49,24 +58,42 @@
       <hr>
       
       <section id="topic2"> 
-        <h2>New Business</h2>
+        <h2 class="curly-font">New Business</h2>
         <section>
-          <h3>App Goals</h3>
-          <p>We want the main goal of our app to be to <strong>track favors</strong> (monetary or not) between friends so that... more discussion</p>
+          <h3 class="curly-font">App Goals</h3>
+          <p>We want the main goal of our app to be to <strong>track favors</strong> (monetary or not) between friends. 
+            We want our app to promote 
+            <span class="inline-block-display">friendship</span> 
+            <span class="inline-block-display">connectivity</span> 
+            <span class="inline-block-display">responsibility</span> as these qualities are very important to our team.</p>
         </section>
 
         <section>
-          <h3>App Features</h3>
-          <p>We want our app to be very simple and easy to use, so we will keep our features simple for now. We know we want to include the following features. See possible Figma designs below.</p>
+          <h3 class="curly-font">App Features</h3>
+          <p>We want our app to be very simple and easy to use, so we will keep our features simple for now. 
+            We know we want to include the following features. See possible Figma designs below.</p>
           <p> 
-            <i>Home Page</i> containing all favors <br>
-            Creating/editing a favor <br>
-            Favor calculator <br>
+            <div class="box">
+              <i>Home Page</i> containing all favors <br>
+              Creating/editing a favor <br>
+              Favor calculator <br>
+            </div>
           </p>
+          <a href="https://www.figma.com/">See full wireframe here</a>
           <div class="warning">
             <img src="resources/figma-design-tool.png" 
               alt="Figma Design"
               width="400" >
+          </div>
+          <div class="flexbox-layout">
+            <div class="small-box">Idea 1</div>
+            <div class="small-box">Idea 2</div>
+            <div class="small-box">Idea 3</div>
+          </div>
+          <div class="grid-display">
+            <div class="small-box">Idea 4</div>
+            <div class="small-box">Idea 5</div>
+            <div class="small-box">Idea 6</div>
           </div>
         </section>
       </section>
@@ -74,17 +101,23 @@
       <hr>
 
       <section id="topic3"> 
-        <h2>Comments, Questions, Concerns</h2>
+        <h2 class="curly-font">Comments, Questions, Concerns</h2>
         <ul>
           <li>What tech stack? Discussion here</li>
           <li>This seems kind of hard... discussion here</li>
         </ul>
+        <p>Our main concern is that the friend feature will be hard to implement. 
+          We plan to adress this challenge by starting with the following subfeatures
+          <div class = "grid-display">unique user profile</div>
+          <div class = "grid-display">sending friend requests</div>
+          <div class = "grid-display">friends list</div>
+        </p>
       </section>
 
       <hr>
 
       <section id="topic4">
-        <h2>Video and Audio Recordings</h2>
+        <h2 class="curly-font">Video and Audio Recordings</h2>
         <p>Below is the video recording of our meeting.</p>
         <video width="400" controls>
           <source src="lab2Video.mp4" type="video/mp4">
@@ -98,77 +131,79 @@
 
       <hr>
 
-      <section id="topic5">
-        <h2>Form</h2>
-        <form id="myForm">
-          <fieldset>
-            <legend>What's your name?</legend>
-            <input type="text"><br>
-          </fieldset>
-          
-          <fieldset>
-            <legend>What's today's date?</legend>
-            <input type="date">
-          </fieldset>
+      <div class="form-box">
+        <section id="topic5">
+          <h2 class="curly-font">Form</h2>
+          <form id="myForm">
+            <fieldset>
+              <legend>What's your name?</legend>
+              <input type="text"><br>
+            </fieldset>
+            
+            <fieldset>
+              <legend>What's today's date?</legend>
+              <input type="date">
+            </fieldset>
 
-          <fieldset>
-            <legend>How are you feeling today?</legend>
-              <input type="checkbox" id="emotion1" name="emotion1" value="happy">
-              <label for="emotion1">Happy</label><br>
+            <fieldset>
+              <legend>How are you feeling today?</legend>
+                <input type="checkbox" id="emotion1" name="emotion1" value="happy">
+                <label for="emotion1">Happy</label><br>
 
-              <input type="checkbox" id="emotion2" name="emotion2" value="sad">
-              <label for="emotion2">Sad</label><br>
+                <input type="checkbox" id="emotion2" name="emotion2" value="sad">
+                <label for="emotion2">Sad</label><br>
 
-              <input type="checkbox" id="emotion3" name="emotion3" value="angry">
-              <label for="emotion3">Angry</label><br>
+                <input type="checkbox" id="emotion3" name="emotion3" value="angry">
+                <label for="emotion3">Angry</label><br>
 
-              <input type="checkbox" id="emotion4" name="emotion4" value="sleepy">
-              <label for="emotion4">Sleepy</label><br>
-          </fieldset>
+                <input type="checkbox" id="emotion4" name="emotion4" value="sleepy">
+                <label for="emotion4">Sleepy</label><br>
+            </fieldset>
 
-          <fieldset>
-            <legend>What did you do today?</legend>
-            <textarea id="day-description" name="day-description" rows="4" cols="25"></textarea>
-          </fieldset>
+            <fieldset>
+              <legend>What did you do today?</legend>
+              <textarea id="day-description" name="day-description" rows="4" cols="25"></textarea>
+            </fieldset>
 
-          <fieldset>
-            <legend>Is a hotdog a sandwich?</legend>
-              <input type="radio" id="option1" name="sandwich" value="yes">
-              <label for="option1">Yes</label><br>
+            <fieldset>
+              <legend>Is a hotdog a sandwich?</legend>
+                <input type="radio" id="option1" name="sandwich" value="yes">
+                <label for="option1">Yes</label><br>
 
-              <input type="radio" id="option2" name="sandwich" value="no">
-              <label for="option2">No</label><br>
-          </fieldset>
+                <input type="radio" id="option2" name="sandwich" value="no">
+                <label for="option2">No</label><br>
+            </fieldset>
 
-          <fieldset>
-            <legend>What's your favorite day of the week?</legend>
-            <input list="days" id="day-choice" name="day-choice">
-            <datalist id="days">
-              <option value="Monday"></option>
-              <option value="Tuesday"></option>
-              <option value="Wednesday"></option>
-              <option value="Thursday"></option>
-              <option value="Friday"></option>
-              <option value="Saturday"></option>
-              <option value="Sunday"></option>
-            </datalist>
-          </fieldset>
+            <fieldset>
+              <legend>What's your favorite day of the week?</legend>
+              <input list="days" id="day-choice" name="day-choice">
+              <datalist id="days">
+                <option value="Monday"></option>
+                <option value="Tuesday"></option>
+                <option value="Wednesday"></option>
+                <option value="Thursday"></option>
+                <option value="Friday"></option>
+                <option value="Saturday"></option>
+                <option value="Sunday"></option>
+              </datalist>
+            </fieldset>
 
-          <fieldset>
-            <legend>And what's your favorite time of day?</legend>
-            <select name="times-of-day" id="time-selection">
-              <option value="">--Please choose an option--</option>
-              <option value="morning">Morning</option>
-              <option value="midday">Midday</option>
-              <option value="afternoon">Afternoon</option>
-              <option value="evening">Evening</option>
-              <option value="nighttime">Nighttime</option>
-            </select>
-          </fieldset>
+            <fieldset>
+              <legend>And what's your favorite time of day?</legend>
+              <select name="times-of-day" id="time-selection">
+                <option value="">--Please choose an option--</option>
+                <option value="morning">Morning</option>
+                <option value="midday">Midday</option>
+                <option value="afternoon">Afternoon</option>
+                <option value="evening">Evening</option>
+                <option value="nighttime">Nighttime</option>
+              </select>
+            </fieldset>
 
-          <button type="button">Click me</button>
-        </form>
-      </section>
+            <button class="form-button">Click me</button>
+          </form>
+        </section>
+      </div>
     </main>
 
     <hr>
