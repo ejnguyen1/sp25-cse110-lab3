@@ -1,7 +1,6 @@
 /* universal selector */
 * {
-    margin: 0;
-    padding: 0;
+    line-height: 1.5;
 }
 
 /* headers */
@@ -70,8 +69,8 @@ body {
     margin: 2em;
     padding: 8px;
     position: fixed;
-    top: 30px;
-    right: 30px;
+    top: 15px;
+    right: 15px;
 }
 
 .note-box:hover {
@@ -81,8 +80,8 @@ body {
     margin: 2em;
     padding: 8px;
     position: fixed;
-    top: 30px;
-    right: 30px;
+    top: 15px;
+    right: 15px;
 }
 
 .small-box {
