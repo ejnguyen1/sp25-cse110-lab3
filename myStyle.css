@@ -118,8 +118,8 @@ body {
 }
 
 .form-button:active {
-    color: rgb(255, 53, 221);
-    background-color: rgb(157, 157, 238);
+    color: rgb(136, 30, 118);
+    background-color: rgb(255, 53, 221);
     height: 20px;
     width: 80px;
 }
@@ -148,5 +148,18 @@ body {
 - psuedo-class
 - layouts
 - responsiveness
-- CSS selectors
+*/
+
+/* CSS selectors done:
+- class 
+
+not done:
+- ID 
+- universal 
+- element
+- attribute
+- paseudo-class
+- selector list
+- combinators
+- new selectors
 */
