@@ -172,6 +172,10 @@ body {
     }
 }
 
+/* attribute selector */
+a[href="https://www.figma.com/"] {
+    color: rgb(65, 7, 90);
+}
 
 
 
@@ -203,12 +207,12 @@ body {
 /* CSS selectors done:
 - class 
 - ID 
-
-not done:
 - universal 
 - element
 - attribute
 - paseudo-class
+
+not done:
 - selector list
 - combinators
 - new selectors
