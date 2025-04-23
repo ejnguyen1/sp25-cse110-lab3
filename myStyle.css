@@ -1,6 +1,6 @@
 /* universal selector */
 * {
-    line-height: 1.5;
+    line-height: 1.25;
 }
 
 /* headers */
@@ -12,7 +12,7 @@ h2 {
     color: #0000C8;
 }
 
-h3 {
+section h3 {
     color: hsl(225, 100%, 56%);
 }
 
@@ -176,8 +176,27 @@ a[href="https://www.figma.com/"] {
     color: rgb(65, 7, 90);
 }
 
+/* combinators */
+ul > li {
+    list-style-type: square;
+}
 
+h3 + ul {
+    background-color: rgb(201, 225, 255);
+}
 
+h2 ~ p {
+    background-color: rgb(223, 213, 255);
+}
+
+div.note-box {
+    border-style: dashed;
+}
+
+/* new selectors */ 
+section:has(h3) {
+    background-color: #f0f9ff;
+}
 
 
 /* included: 
@@ -210,9 +229,9 @@ a[href="https://www.figma.com/"] {
 - element
 - attribute
 - paseudo-class
-
-not done:
 - selector list
 - combinators
+
+not done:
 - new selectors
 */
