@@ -124,6 +124,17 @@ body {
     width: 80px;
 }
 
+/* layouts */
+.flexbox-layout {
+    display: flex;
+    gap: 1em;
+    background-color: rgb(37, 39, 102);
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
 
 
 
@@ -141,11 +152,11 @@ body {
 - auto margins
 - display
 - sizing
-- position **
+- position
+- psuedo-class
 */
 
 /* not yet included: 
-- psuedo-class
 - layouts
 - responsiveness
 */
