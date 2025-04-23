@@ -1,6 +1,7 @@
 /* headers */
 h1 {
     color: rgb(0, 0, 102);
+    position: sticky;
 }
 
 h2 {
@@ -54,6 +55,17 @@ body {
     border-radius: 20px;
     margin: 1cm;
     padding: 20px;
+}
+
+.note-box {
+    background-color: rgb(27, 37, 104);
+    color: white;
+    border: none;
+    margin: 2em;
+    padding: 8px;
+    position: absolute;
+    top: 40px;
+    left: 60px;
 }
 
 /* font */
