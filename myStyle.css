@@ -62,9 +62,9 @@ body {
     border: none;
     margin: 2em;
     padding: 8px;
-    position: absolute;
-    top: 40px;
-    left: 60px;
+    position: fixed;
+    top: 30px;
+    right: 30px;
 }
 
 /* font */
@@ -126,7 +126,7 @@ body {
 */
 
 /* not yet included: 
-- position
+- position **
 - psuedo-class
 - layouts
 - responsiveness
